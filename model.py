@@ -9,9 +9,7 @@ from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
-import streamlit as st
 
-st.title('Diabetes Prediction Model')
 
 
 #Loading the dataset
